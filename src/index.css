@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+input {
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 18px;
+}
+.bordr {
+  border: 1px solid #9f9898;
+  border-radius: 16px;
+  color: #b7adad;
+  padding: 18px;
+}
+#btns button {
+  width: 60px;
+  height: 20px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6e6d77;
+}
